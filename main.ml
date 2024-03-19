@@ -50,3 +50,14 @@ print_newline();
 print_string("Score atout : ");
 print_int(M05.Task.score_atout(Carte(As, Coeur)));;
 print_newline();
+print_string("-------------");;
+print_newline();
+print_string("First : ");
+print_int(M04.Task.first (3, 9));;
+print_newline();
+print_string("Second : ");
+print_int(M04.Task.second (1, 5));;
+print_newline();
+let (a, b) = M04.Task.sum (1, "Bon") (2, "jour") in
+print_string (string_of_int a ^ ", " ^ b);;
+print_newline();
